@@ -8,36 +8,36 @@
   </head>
 
   <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <nav class="navigaton">
         <a href="#" class="navigation=logo">
-          <img class="header-logo" src="#" alt="Логотип Седона" </a>
-          <ul class="navigation-list">
-            <li class="navigation-item" <a class="navigation-main" href="#"> Главная
-        </a>
-        </li>
-        <li class="navigation-item" <a class="navigation-sedona" href="#"> О Седоне </a>
-        </li>
-        <li class="navigation-item" <a class="navigation-hotel" href="#"> Гостиница</a>
-        </li>
+          <img class="header-logo" src="fonts/images/logo.svg" width="140" height="70" alt="Логотип Седона"> </a>
+        <ul class="navigation-list">
+          <li class="navigation-item"> <a class="navigation-main" href="#"> Главная
+            </a>
+          </li>
+          <li class="navigation-item"> <a class="navigation-sedona" href="#"> О Седоне </a>
+          </li>
+          <li class="navigation-item"> <a class="navigation-hotel" href="#"> Гостиница</a>
+          </li>
         </ul>
 
         <ul class="navigation-user">
-          <li class="navigation-user-item" <a class="navigation-search" href="#"> Поиск
-            <span> class="visualy-hidden" Поиск </span> </a>
+          <li class="navigation-user-item"> <a class="navigation-search" href="#"> Поиск
+              <span> class="visualy-hidden" Поиск </span> </a>
           </li>
-          <li class="navigation-user-item" <a class="navigation-favorites" href="#">
-            <span> class="visualy-hidden"> Избранное </span>
-            <span> class="number"> 12 </span>
+          <li class="navigation-user-item"> <a class="navigation-favorites" href="#">
+              <span> class="visualy-hidden"> Избранное </span>
+              <span> class="number"> 12 </span>
             </a>
           </li>
-          <li class="navigation-item" <a class="header-botton" href="#"> Хочу сюда</a>
+          <li class="navigation-item"> <a class="header-botton" href="#"> Хочу сюда</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main-content">
-      <section class="search">
+      <section class="search" data test="filter">
         <h1 class="search-title">Гостиницы Седоны</h1>
         <p class="search-link-path">
           <a href="index.html">
@@ -101,10 +101,10 @@
             </button>
           </p>
         </div>
-        <ul class="catalog-items">
+        <ul class="catalog-items" data-test="catalog">
           <li class="catalog-item">
             <a href="#">
-              <img src="#" alt="Гостиница Amara Resort and Spa">
+              <img src="fonts/images/hotel-1.jpg" width="300" height="212" alt="Гостиница Amara Resort and Spa">
             </a>
             <h3><a href="#">Amara Resort & Spa</a></h3>
             <div>
@@ -118,7 +118,7 @@
           </li>
           <li class="catalog-item">
             <a href="#">
-              <img src="#" alt="Гостиница Villas at Poco Diablo">
+              <img src="fonts/images/hotel-2.jpg" width="300" height="212" alt="Гостиница Villas at Poco Diablo">
             </a>
             <h3><a href="#">Villas at Poco Diablo</a></h3>
             <div>
@@ -132,7 +132,7 @@
           </li>
           <li class="catalog-item">
             <a href="#">
-              <img src="#">
+              <img src="fonts/images/hotel-3 (1).jpg" width="300" height="212" alt="Desert Quail Inn">
             </a>
             <h3><a href="#">Desert Quail Inn</a></h3>
             <div>
@@ -146,7 +146,7 @@
           </li>
           <li class="catalog-item">
             <a href="#">
-              <img src="#">
+              <img src="fonts/images/hotel-4.jpg" width="300" height="212" alt="GreenTree Inn">
             </a>
             <h3><a href="#">GreenTree Inn</a></h3>
             <div>
@@ -179,8 +179,8 @@
         </ul>
       </section>
     </main>
-    <footer class="main-footer">
-      <div class="newsletter">
+    <footer class="main-footer" data-test="footer">
+      <div class="newsletter" data-test="subscribe">
         <h2>Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form action="https://echo.htmlacademy.ru/" method="post">

@@ -2,7 +2,7 @@
 
 * Студент: [Якуб Байсиев](https://up.htmlacademy.ru/htmlcss/39/user/2424529).
 * Наставник: [Дина Шарипова] (https://htmlacademy.ru/profile/id1418957)
- Сайт: [Мой проект седона ](https://yakub1baisiev.github.io/2424529-sedona-39/)
+* Сайт: [Мой проект седона ](https://yakub1baisiev.github.io/2424529-sedona-39/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
